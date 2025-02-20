@@ -1,0 +1,9 @@
+{
+    "node_version": "20",
+    "graphs": {
+      "ingestion_graph": "./src/ingestion_graph/graph.ts:graph",
+      "retrieval_graph": "./src/retrieval_graph/graph.ts:graph"
+    },
+    "env": ".env",
+    "dependencies":["."]
+  }
